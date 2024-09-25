@@ -57,10 +57,11 @@ input label{
 }
 
 .stmt{
-    padding: 10px;
+    padding: 20px;
     margin: 3px;
     background-color: #7dc67d;
     border-radius: 10px;
+    height: 50px;
 }
 
 .flex-row{
@@ -96,9 +97,11 @@ input label{
     height: 50px;
     margin: 15px;
 }
+
 .selected{
     background-color: #F1EDEE;
     border: 1px solid black;
+    color: black;
 }
 .red{
     background-color: #EF6F6C;
@@ -110,10 +113,11 @@ input label{
     background-color: #F9C80E;
 }
 .blue{
-    background-color: #5D80E9;
+    background-color: #99D2EA ;
 }
 .purpule{
-    background-color: #786CC6;
+    background-color: #8D87C0;
+
 }
 .orange{
      background-color: #E77F4B;
@@ -143,6 +147,21 @@ input label{
     display: flex;
     justify-content: center;
 }
+#ack-box{
+    border-right: 2px solid black;
+    background-color: #EBF2FA ;
+    
+}
+#action-box{
+    background-color: #C6E6C6 ;
+
+}
 #stmt-box{
+    display: flex; 
+    flex-direction: row;
     max-width: 500px;
+
+}
+.text-center{
+    text-align: center;
 }
