@@ -1,0 +1,148 @@
+
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.box-centered{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+
+.core{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+.core img{
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+}
+#red-flags{
+    background-color: #AD2831 ;
+    color: white;
+}
+#red-flags h3{
+    margin-left: 20px;
+    font-weight: 700;
+}
+input label{
+    display: inline-block;
+}
+
+.stmt{
+    padding: 10px;
+    margin: 3px;
+    background-color: #7dc67d;
+    border-radius: 10px;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.title h2{
+    flex-grow: 3;
+} 
+
+.page-name{
+    color: #808D8E;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.emotion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+}
+.selected{
+    background-color: #F1EDEE;
+    border: 1px solid black;
+}
+.red{
+    background-color: #EF6F6C;
+}
+.gray{
+    background-color: #808D8E;
+}
+.yellow{
+    background-color: #F9C80E;
+}
+.blue{
+    background-color: #5D80E9;
+}
+.purpule{
+    background-color: #786CC6;
+}
+.orange{
+     background-color: #E77F4B;
+}
+.green{
+    background-color: #CBE896;
+}
+
+.notes-box{
+    background-color: #F1EDEE;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.fraud-warning{
+    background-image: url("img/deteccion-de-fraude\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: none; */
+}
+
+.recomended{
+    background-color: gold;
+}
+#work-box{
+    display: flex;
+    justify-content: center;
+}
+#stmt-box{
+    max-width: 500px;
+}
