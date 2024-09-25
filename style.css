@@ -57,11 +57,12 @@ input label{
 }
 
 .stmt{
-    padding: 20px;
-    margin: 3px;
+    padding: 3px;
+    margin: 5px;
+    align-content: center;
     background-color: #7dc67d;
     border-radius: 10px;
-    height: 50px;
+    height: 70px;
 }
 
 .flex-row{
